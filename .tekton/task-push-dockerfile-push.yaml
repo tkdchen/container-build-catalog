@@ -23,7 +23,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/mytestworkload/default-tenant/container-build-catalog/push-dockerfile:{{revision}}
+    value: quay.io/mytestworkload/default-tenant/container-build-catalog/task-push-dockerfile:{{revision}}
   - name: dockerfile
     value: Containerfile
   - name: path-context
